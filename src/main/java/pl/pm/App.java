@@ -1,5 +1,7 @@
 package pl.pm;
 
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -7,6 +9,8 @@ package pl.pm;
 public class App 
 {
     public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
+        List<String> myList = DataLoader.loadData("TREC.txt");
+
+
     }
 }
